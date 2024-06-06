@@ -45,7 +45,7 @@ jobs:
       - name: Release
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ secrets.ghp_5TRJetcUNbIdjS0yL62JgjzJkYiXSf3e1CM }}
+          repo_token: ${{ secrets.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 }}
           file: ${{ env.FILENAME }}
           asset_name: ${{ env.FILENAME }}
           tag: ${{ github.ref }}
